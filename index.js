@@ -14,4 +14,6 @@ function currentLine(katzDeliLine) {
     return `The line is currently empty.`
   }
   const numberedLine = []
+  for (let i = 0, katzDeliLine.length > i; i++) { 
+    
 }
