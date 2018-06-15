@@ -15,5 +15,5 @@ function currentLine(katzDeliLine) {
   }
   const numberedLine = []
   for (let i = 0, katzDeliLine.length > i; i++) { 
-    numberedLine.push(`${i+1}`)
+    numberedLine.push(`${i+1}. ${katzDeliLine[i]}`)
 }
